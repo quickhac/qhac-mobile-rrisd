@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  
+  font-family: 'Open Sans';
+}
+
+header {
+  display: flex;
+  height: 24px;
+  padding: 2px 8px;
+  background: #336e7b;
+  color: #fff;
+}
+
+header > .left {
+  text-align: left;
+}
+
+header > .center {
+  flex: 1 1;
+  text-align: center;
+}
+
+header > .right {
+  text-align: right;
+}
+
+main {
+  flex: 1 1;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
